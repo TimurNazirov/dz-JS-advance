@@ -1,0 +1,29 @@
+.pushme {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #333;
+  margin: 20px;
+  padding: 5px;
+  background-color: purple;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex; /* Включает режим флексбокса */
+  flex-direction: row; /* Выстраивает элементы в линию (стоит по умолчанию) */
+  gap: 10px; /* Создает одинаковые отступы между кнопками */
+  justify-content: center; /* Выравнивает кнопки по центру (по желанию) */
+}
+
+.counter-block {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #333;
+  margin: 20px;
+  padding: 5px;
+  background-color: white;
+}
